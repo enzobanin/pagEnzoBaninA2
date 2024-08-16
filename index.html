@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Aritmética</title>
+    <script type="text/javascript" src="../prova/script/index.js"></script>
+</head>
+<body>
+    <form>
+        <h1 style="text-align: center;">Esta página calcula a média aritmética do aluno</h1>
+        <hr width="100%">
+        <label for="primeira">Digite a primeira nota do aluno(a) :</label>
+        <input type="number" name="primeira">
+        <br><br>
+        <label for="segunda">Digite a segunda nota do aluno(a) :</label>
+        <input type="number" name="segunda">
+        <br><br>
+        <label for="terceira">Digite a terceira nota do aluno(a) :</label>
+        <input type="number" name="terceira">
+        <br><br>
+        <label for="quarta">Digite a quarta nota do aluno(a) :</label>
+        <input type="number" name="quarta">
+        <br><br>
+        <button type="button" onclick="calcularMedia(this.form)">Calcular</button>
+        <button type="reset">Limpar</button>
+        <p id="situacao"></p>
+
+    </form>
+    
+</body>
+</html>
